@@ -1,0 +1,30 @@
+html,body{
+	height:100%
+}
+body{background: linear-gradient(to bottom, rgba(158,156,158,1) 0%, rgba(19,19,19,1) 100%);
+}
+h1{
+	color:#04F4E0;
+	font-family: 'Kaushan Script', cursive;
+	letter-spacing: 0.1em;
+	text-align:center;
+	text-shadow: 0 0 0.5em #3E3A3A;
+}
+
+.galeria{
+	border: solid;
+	display: flex;
+	justify-content:space-around;
+	margin: 0 auto;
+	width: 80%;
+}
+.galeria div{
+	filter: grayscale(1);
+}
+
+.galeria img{
+	width:250px;
+}
+.galeria div:hover{
+	filter: grayscale(0);
+}
